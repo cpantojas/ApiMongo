@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <h1>prueba de socket</h1>
+    <p id="estadoServerOn" style="color: green;">Server Online</p>
+    <p id="estadoServerOff" style="color: red;">Server Offline</p>
+    <div class="container">
+        <div clas="row">
+            <div clas="col-6">
+                <input id="txtMensaje" type="text" class="form-control">
+                <button id="btnEnviar" class="btn btn-primary">Enviar</button>
+            </div>
+        </div>
+    </div>
+
+    
+
+</body>
+<script src="./socket.io/socket.io.js"></script>
+<script src="./js/cliente-socket.js"></script>
+</html>
